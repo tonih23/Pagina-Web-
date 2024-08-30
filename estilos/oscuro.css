@@ -1,0 +1,89 @@
+/* importamos reglas de comun.css */
+@import '/estilos/comun.css';
+
+/* adaptamos el color al modo oscuro */
+
+:root {
+	--color1: #FFF2C2;
+	--color2: #8A6A00;
+	--color3: #947100;
+	--color5: #BF9E30;
+	--color6: #b1994a;
+}
+
+body {
+    background-color: #000;
+}
+
+.listas ul, #main-mapaWeb ul {
+	list-style: none;
+}
+
+.listas ul li::before, #main-mapaWeb ul li::before { 
+	content: "\2022";
+	padding-right: 3px;
+	color: var(--color1); 
+}
+
+p, dd, .listas ul li, #main-mapaWeb ul li {
+    color: var(--color1);
+}
+
+#menu a:hover, footer a:hover{
+	color: var(--color5);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--color6);
+}
+
+tbody tr:hover {
+    background-color: var(--color4);
+}
+
+.form-style-5 {
+	background: var(--color6);
+}
+
+.form-style-5 p {
+	color: #000;
+}
+
+.form-style-5 input[type="text"],
+.form-style-5 input[type="range"],
+.form-style-5 input[type="password"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	background-color: var(--color2);
+	color:var(--color6);
+}
+
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="range"]:focus,
+.form-style-5 input[type="password"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: var(--color3);
+}
+
+header figure{
+	filter: brightness(5%);
+
+}
+
+
+

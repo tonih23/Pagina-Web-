@@ -1,0 +1,47 @@
+.impreso{
+    display: inherit !important;
+    text-align: inherit !important;
+    color: inherit !important;
+}
+
+header figure {
+	filter: brightness(5%);
+}
+
+header, footer .impreso{
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header figure, #menu .impreso h2, footer .impreso, .impreso h1{
+	display: block;
+	text-align: left;
+}
+
+#colon, #bronquitis, #mapaEsp, #menu .impreso ol, #menu .impreso a, #introduccion, #declaracion, #situacion, #preparacion, #error .impreso h2, .impreso h2 {
+    color: #000;
+    font-size: 12pt;
+}
+
+#descripcion, #temas, #menu .impreso h2, .titImp, .impreso h1, #error .impreso h1 {
+    color: #000;
+    font-size: 16pt;
+}
+
+.impreso dt{
+    font-size: 14pt;
+}
+
+.impreso dd a, .impreso a{
+    color: #000;
+}
+
+#menu a[href]:after, .impreso dd a[href]:after, .impreso a[href]:after {
+    content: "("attr(href)")";
+}
+
+footer{
+    margin-top: 15px;
+}
+

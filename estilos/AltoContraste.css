@@ -1,0 +1,86 @@
+
+/* importamos reglas de comun.css */
+@import '/estilos/comun.css';
+
+/* adaptamos el color al modo oscuro */
+
+:root {
+	--color1: #635111;
+	--color2: #635111;
+	--color3: #635111;
+	--color5: #635111;
+	--color6: #635111;
+		--color7: #FFFFFF;
+		--color8: #FFF8DD;
+		--color9:#000000;
+		--color10:#535111;
+
+
+}
+
+em{
+   color: var(--color2);
+}
+
+li a:hover{
+  color: var(--color9);
+
+}
+h2{
+    background-color: var(--color8);
+
+}
+
+footer{
+       color: var(--color7);
+
+}
+footer a{
+       color: var(--color7);
+}
+footer a:hover{
+       color: var(--color8);
+}
+.migas,.migas a {
+           color: var(--color1);
+}
+.migas a:hover{
+       color: var(--color9);
+
+}
+
+#menu,#menu a {
+   color: var(--color7);
+
+}
+#menu a:hover{
+   color: var(--color8);
+}
+#navegador li,#navegador a{
+   color: var(--color7);
+}
+blockquote{
+   color: var(--color2);
+
+}
+
+thead td {
+   color: var(--color7);
+    background-color: var(--color2);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--color7);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--color2);
+    color: var(--color7);
+    
+}
+header figure{
+	filter: brightness(1%);
+}
+header {
+background-color: var(--color8);
+}

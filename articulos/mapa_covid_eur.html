@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Mapa Mortalidad Covid Europa-Glosario de Medicina</title>
+        <link rel="stylesheet" href="/estilos/grande.css" media="screen and (min-width: 981px)">
+        <link rel="stylesheet" href="/estilos/mediano.css" media="screen and (min-width: 481px) and (max-width: 980px)">
+        <link rel="stylesheet" href="/estilos/pequeño.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="/estilos/comun.css" title="Estilo por defecto">
+        <link rel="alternate stylesheet" href="/estilos/oscuro.css" title="Modo oscuro">
+    </head>
+    <body>
+        <header>
+            <figure class="grande mediano">
+                <img src="/imagenes/Logo_web.png" alt="">
+            </figure>
+            <figure class="pequeño">
+                <img src="/imagenes/Logo_web_peq.png" alt="">
+            </figure>
+            <p class="migas">Estás en: <a href="/index.html">Inicio</a> > <a href="/indices/indice_m.html">Índice M</a> > <a href="/articulos/mapa_covid_eur.html">Mapa Covid Europa</a></p>
+        </header>
+        <main class="mapa listas">
+                <h2>MAPA DE MORTALIDAD COVID-19 EUROPEO</h2>
+                <p>Para <strong>acceder</strong> a las <strong>tablas</strong> con las estadísticas de mortalidad de cada pais, debe <strong>pulsar</strong> en el <strong>mapa</strong> de abajo el pais del cuál de desea conocer sus datos.</p>
+                <p>Paises Disponibles:</p>
+                <ul>
+                    <li>España</li>
+                    <li>Francia</li>
+                    <li>Alemania</li>
+                    <li>Inglaterra</li>
+                    <li>Italia</li>
+                    <li>Rusia</li>
+                </ul>
+                <figure class="grande">
+                    <img src="/imagenes/mapa_europa.jpg" alt="IMapa de Europa con distintors paises donde se puede pinchar" usemap="#mapacovid">
+
+                    <map name="mapacovid" id="mapacovid">
+                        <area shape="poly" coords="172,345,264,407,153,449" href="/articulos/españa.html" alt="etiqueta para enlace">
+                        <area shape="poly" coords="206,171,214,215,221,251,267,244" href="/articulos/Inglaterra.html" alt="etiqueta para enlace">
+                        <area shape="circle" coords="350,389,60" href="/articulos/Italia.html" alt="etiqueta para enlace">
+                        <area shape="circle" coords="338,279,60" href="/articulos/Alemania.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="214,281,291,373" href="/articulos/Francia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="499,63,727,317" href="/articulos/Rusia.html" alt="etiqueta para enlace">
+                    </map>
+                </figure>
+
+                <figure class="mediano">
+                    <img src="/imagenes/mapa_eu_med.jpg" alt="Mapa de Europa con distintos paises para pinchar" usemap="#mapaMed">
+
+                    <map name="mapaMed" id="mapaMed">
+                        <area shape="poly" coords="92,213,151,240,93,275" href="/articulos/españa.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="122,98,165,158" href="/articulos/Inglaterra.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="186,219,250,285" href="/articulos/Italia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="187,144,230,200" href="/articulos/Alemania.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="134,176,182,227" href="/articulos/Francia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="310,49,430,154" href="/articulos/Rusia.html" alt="etiqueta para enlace">
+                    </map>
+                </figure>
+
+                <figure class="pequeño">
+                    <img src="/imagenes/mapa_eu_peq.jpg" alt="Mapa de Europa con distintos paises para pinchar" usemap="#mapaPeq">
+
+                    <map name="mapaPeq" id="mapaPeq">
+                        <area shape="poly" coords="56,129,90,143,56,164" href="/articulos/españa.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="77,58,96,98" href="/articulos/Inglaterra.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="109,130,150,172" href="/articulos/Italia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="112,87,136,116" href="/articulos/Alemania.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="76,106,109,135" href="/articulos/Francia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="182,20,251,115" href="/articulos/Rusia.html" alt="etiqueta para enlace">
+                    </map>
+                </figure>
+        </main>
+        <footer>
+            <p><a href="/mapaWeb/mapa_web.html">Accede al mapa web</a></p>
+            <p><a href="/pautasaccesibilidad/Pautas_accesibilidad.html">Accede a las pautas de accesibilidad</a></p>
+            Rafael Martínez y Antonio Huix <br>
+            Grupo 1 - Usabillidad y Accesibilidad<br>
+            Ing. Biomedica - UA<br>
+            <img src="/imagenes/copyright.png" alt="" width="10"> 2021
+        </footer>
+    </body>
+</html>

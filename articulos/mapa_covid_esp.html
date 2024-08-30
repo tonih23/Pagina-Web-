@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Mapa Mortalidad Covid ESpaña-Glosario de Medicina</title>
+        <link rel="stylesheet" href="/estilos/grande.css" media="screen and (min-width: 981px)">
+        <link rel="stylesheet" href="/estilos/mediano.css" media="screen and (min-width: 481px) and (max-width: 980px)">
+        <link rel="stylesheet" href="/estilos/pequeño.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="/estilos/comun.css" title="Estilo por defecto">
+        <link rel="alternate stylesheet" href="/estilos/oscuro.css" title="Modo oscuro">
+    </head>
+    <body>
+        <header>
+            <figure class="grande mediano">
+                <img src="/imagenes/Logo_web.png" alt="">
+            </figure>
+            <figure class="pequeño">
+                <img src="/imagenes/Logo_web_peq.png" alt="">
+            </figure>
+            <p class="migas">Estás en: <a href="/index.html">Inicio</a> > <a href="/indices/indice_m.html">Índice M</a> > <a href="/articulos/mapa_covid_esp.html">Mapa Covid España</a></p>
+        </header>
+        <main class="mapa listas">
+                <h2>MAPA DE MORTALIDAD COVID-19 ESPAÑA</h2>
+                <p>Para <strong>acceder</strong> a las <strong>tablas</strong> con las estadísticas de mortalidad de cada comunidad autónoma, debe <strong>pulsar</strong> en el <strong>mapa</strong> de abajo la comunidad de la cuál de desea conocer sus datos.</p>
+                <p>Comunidades Disponibles:</p>
+                <ul>
+                    <li>Galicia</li>
+                    <li>Comunidad Valenciana</li>
+                    <li>Canarias</li>
+                    <li>Madrid</li>
+                    <li>Andalucia</li>
+                    <li>Baleares</li>
+                </ul>
+                <figure class="grande">
+                    <img src="/imagenes/mapa_esp.png" alt="Mapa de España con distintas comunidades para pinchar" usemap="#mapacovid">
+
+                    <map name="mapacovid" id="mapacovid">
+                        <area shape="poly" coords="72,8,12,119,109,120" href="/articulos/galicia.html" alt="etiqueta para enlace">
+                        <area shape="poly" coords="265,178,215,231,287,239" href="/articulos/madird.html" alt="etiqueta para enlace">
+                        <area shape="circle" coords="402,283,64" href="/articulos/comunidad_valenciana.html" alt="etiqueta para enlace">
+                        <area shape="circle" coords="219,400,73" href="/articulos/andalucia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="490,223,647,331" href="/articulos/baleares.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="364,454,645,585" href="/articulos/canarias.html" alt="etiqueta para enlace">
+                    </map>
+                </figure>
+
+                <figure class="mediano">
+                    <img src="/imagenes/mapa_esp_med.png" alt="Mapa de España con distintas comunidades para pinchar" usemap="#mapaMed">
+
+                    <map name="mapaMed" id="mapaMed">
+                        <area shape="rect" coords="0,0,81,83" href="/articulos/galicia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="114,118,202,170" href="/articulos/madird.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="260,139,311,256" href="/articulos/comunidad_valenciana.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="71,260,233,303" href="/articulos/andalucia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="345,156,441,220" href="/articulos/baleares.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="257,330,445,399" href="/articulos/canarias.html" alt="etiqueta para enlace">
+                    </map>
+                </figure>
+
+                <figure class="pequeño">
+                    <img src="/imagenes/mapa_esp_peq.png" alt="Mapa de España con distintas comunidades para pinchar" usemap="#mapaPeq">
+
+                    <map name="mapaPeq" id="mapaPeq">
+                        <area shape="rect" coords="0,0,56,61" href="/articulos/galicia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="95,82,131,112" href="/articulos/madird.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="31,161,153,205" href="/articulos/andalucia.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="166,95,199,163" href="/articulos/comunidad_valenciana.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="222,98,289,141" href="/articulos/baleares.html" alt="etiqueta para enlace">
+                        <area shape="rect" coords="160,221,289,265" href="/articulos/canarias.html" alt="etiqueta para enlace">
+                    </map>
+                </figure>
+        </main>
+        <footer>
+            <p><a href="/mapaWeb/mapa_web.html">Accede al mapa web</a></p>
+            <p><a href="/pautasaccesibilidad/Pautas_accesibilidad.html">Accede a las pautas de accesibilidad</a></p>
+            Rafael Martínez y Antonio Huix <br>
+            Grupo 1 - Usabillidad y Accesibilidad<br>
+            Ing. Biomedica - UA<br>
+            <img src="/imagenes/copyright.png" alt="" width="10"> 2021
+        </footer>
+    </body>
+</html>

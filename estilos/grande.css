@@ -1,0 +1,23 @@
+.grande{
+    display: inherit !important;
+}
+
+/* Menu */
+ #menu{
+    float: left;
+    width: 20%;
+    max-width: 300px;
+}
+
+/* Main */
+main {
+    margin-left: 21%;
+    width: 79%;
+    max-width: 1200px;
+}
+
+/* Cita */
+blockquote {
+    font-size: 1.5em;
+    text-align: center;
+}

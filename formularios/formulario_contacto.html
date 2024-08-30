@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head id="formulario" >
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Glosario de Medicina</title>
+        <!--CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--CSS-->
+		<link rel="stylesheet" href="/estilos/grande.css" media="screen and (min-width: 981px)">
+        <link rel="stylesheet" href="/estilos/mediano.css" media="screen and (min-width: 481px) and (max-width: 980px)">
+        <link rel="stylesheet" href="/estilos/pequeño.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="/estilos/comun.css" title="Estilo por defecto">
+        <link rel="alternate stylesheet" href="/estilos/oscuro.css" title="Modo oscuro">
+		
+    </head>
+    <body>
+        <header>
+            <figure class="grande mediano">
+                <img src="/imagenes/Logo_web.png" alt="">
+            </figure>
+            <figure class="pequeño">
+                <img src="/imagenes/Logo_web_peq.png" alt="">
+            </figure>
+            <p class="migas">Estás en: <a href="/index.html">Inicio</a> > <a href="/formularios/formulario_contacto.html">Formulario de contacto</a></p>
+        </header>
+        <main class="formulario">
+                <h2>FORMULARIO DE CONTACTO</h2>
+                    <div class="form-style-5">
+                        <p>Antes de rellenar el cuestionario debe tener en cuenta:</p>
+                        <ul>
+                            <li>Los campos marcados con el asterisco (<strong>*</strong>) son <strong>obligatorios</strong></li>
+                            <li>Algunos campos tienen <strong>máximos</strong> y/o <strong>mínimos</strong>, que están indicados entre <strong>paréntesis</strong></li>
+                            <li>En el campo <em>Yo soy</em> debe elegir <strong>una profesión</strong> de la lista despegable</li>
+                            <li>En el campo <em>Sexo</em> debe marcar sólo <strong>una opción</strong></li>
+                            <li>Una vez completado el formulario debe darle al botón <strong>Enviar</strong></li>
+                            <li>Si desea deshacer todo los completado, debe darle al botón <strong>Eliminar</strong></li>
+                        </ul>
+                        <form action="respuesta_contacto.html" method="POST">
+                        <fieldset>
+                        <legend><span class="number">1</span>Tu Información</legend>
+                        <p>
+                            <label  for="soy">Yo soy</label>
+                            <select name="soy" id="soy">
+                                <option value="paciente">Paciente</option>
+                                <option value="cientifico">Científico</option>
+                                <option value="medico">Médico</option>
+                                <option value="educador">Educador</option>
+                                <option value="fabricante">Fabricante</option>
+                                <option value="periodista">Periodista</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label  for="date">Fecha de nacimiento (mínimo 1 de Enero de 1900)</label>
+                            <input id="input,date" type="date" name="date" min="1900-01-01"/>
+                        </p>
+                            <label  for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="  ejemplo@email.com"/>
+                        <fieldset>
+                            <legend>Sexo</legend>
+                            <p><label id="label"><input type="radio" name="sexo" value="hombre"/>Hombre</label></p>
+                            <p><label id="label"><input type="radio" name="sexo" value="mujer"/>Mujer</label></p>
+                            <p><label id="label"><input type="radio" name="sexo" value="otro"/>Otro</label></p>
+                        </fieldset>
+                        </fieldset>
+                        <fieldset>
+                            <legend><span class="number">2</span>Motivo De Contacto</legend>
+                                <label  for="asunto">Asunto* (máximo 50 caracteres)</label>
+                                <input id="input,asunto" type="text" name="asunto"  placeholder="  síntoma cáncer de colon" maxlength="50" required/>
+
+                                <label id="legend" for="comentario">Comentario o Pregunta*</label>
+                                <br/>
+                                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="  escribe algo aquí..." required></textarea>
+
+                                <label  for="info"><input type="checkbox" name="info" id="info" value="aceptado"/>Deseo recibir más información</label>
+                        </fieldset>
+                        <p>
+                            <input id="input" type="submit" value="Enviar"/>
+                            <input id="input" type="reset" value="Eliminar"/>
+                        </p>
+                        </form>
+                        </div>
+        </main>
+        <footer>
+            <p><a href="/mapaWeb/mapa_web.html">Accede al mapa web</a></p>
+            <p><a href="/pautasaccesibilidad/Pautas_accesibilidad.html">Accede a las pautas de accesibilidad</a></p>
+            Rafael Martínez y Antonio Huix <br>
+            Grupo 1 - Usabillidad y Accesibilidad<br>
+            Ing. Biomedica - UA<br>
+            <img src="/imagenes/copyright.png" alt="" width="10"> 2021
+        </footer>
+    </body>
+</html>

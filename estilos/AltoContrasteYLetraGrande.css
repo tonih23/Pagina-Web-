@@ -1,0 +1,7 @@
+@import '/estilos/LetraGrande.css';
+@import '/estilos/AltoContraste.css';
+
+main p, main dd {
+    max-width: 80ch;
+    text-align: left;
+}

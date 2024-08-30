@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+        <title>Formulario búsqueda-Glosario de Medicina</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<link rel="stylesheet" href="/estilos/grande.css" media="screen and (min-width: 981px)">
+        <link rel="stylesheet" href="/estilos/mediano.css" media="screen and (min-width: 481px) and (max-width: 980px)">
+        <link rel="stylesheet" href="/estilos/pequeño.css" media="screen and (max-width: 480px)">
+		<link rel="stylesheet" href="/estilos/comun.css" title="Estilo por defecto">
+        <link rel="alternate stylesheet" href="/estilos/oscuro.css" title="Modo oscuro">
+	</head>
+	<body>
+		<header>
+			<figure>
+				<img src="/imagenes/Logo_web.png" alt="">
+			</figure>
+			<p class="migas">Estás en: <a href="/index.html">Inicio</a> > <a href="/formularios/formulario_busqueda.html">Formulario de búsqueda</a></p>
+		</header>
+		<main class="formulario">
+				<h2 >FORMULARIO DE BÚSQUEDA</h2>
+				<div class="form-style-5">
+					<form id="nuevoformulario" action="respuesta_busqueda.html" method="GET">
+					<fieldset>
+					<legend><span class="number">1</span> Rellena Los Campos</legend>
+					<p>
+						<label  for="descripcion">Descripción</label>
+						<input id="descripcion,input" type="search" name="descripcion" 
+						placeholder="  Se trata de una enfermedad..."
+						autocomplete>
+					</p>
+					<p>
+						<label  for="causas">Causas</label>
+						<input id="descripcion,causas" type="search" name="causas"
+						placeholder="  La enfermedad es provocada por..."
+						autocomplete>
+					</p>
+					<p>
+						<label  for="sintomas">Síntomas</label>
+						<input id="descripcion,sintomas" type="search" name="sintomas" 
+						placeholder="  Los principales síntomas son..."
+						autocomplete>
+					</p>
+					<p>
+						<label  for="pruebas">Pruebas</label>
+						<input id="input,pruebas" type="search" name="pruebas" 
+						placeholder="  Para un buen diagnóstico las pruebas a realizar son..."
+						autocomplete>
+					</p>
+					<p>
+						<label  for="examenes">Exámenes</label>
+						<input id="descripcion,examenes" type="search" name="examenes" 
+						placeholder="  Los examenes son..."
+						autocomplete>
+					</p>
+					<p>
+						<label  for="tratamiento">Tratamiento</label>
+						<input id="tratamiento,input" type="search" name="tratamiento" 
+						placeholder="  Los principales tratamientos son..."
+						autocomplete>
+					</p>
+					<p>
+						<label  for="expectativas">Expectativas</label>
+						<input id="expectativas,input" type="search" name="expectativas" 
+						placeholder="  Las expectativas en cuanto a ..."
+						autocomplete>
+					</p>
+					</fieldset>
+					<input type="submit" value="Enviar"/>
+					</form>
+					</div>
+		</main>
+        <footer>
+            <p><a href="/mapaWeb/mapa_web.html">Accede al mapa web</a></p>
+            <p><a href="/pautasaccesibilidad/Pautas_accesibilidad.html">Accede a las pautas de accesibilidad</a></p>
+            Rafael Martínez y Antonio Huix <br>
+            Grupo 1 - Usabillidad y Accesibilidad<br>
+            Ing. Biomedica - UA<br>
+            <img src="/imagenes/copyright.png" alt="" width="10"> 2021
+        </footer>
+    </body>
+</html>
