@@ -1,2 +1,2 @@
-# Pagina-Web-
-Developed an accessible website following recognized standards, focused on providing medical information. Includes articles on diseases like colon cancer and bronchitis, and features an interactive COVID-19 map for Spain. Designed to be fully usable by individuals with various disabilities.
+# Web page
+I developed a website focused on accessibility for users with various disabilities, rigorously following recognized standards. The site is designed to provide medical information, including detailed articles on diseases such as colon cancer and bronchitis. Additionally, it features an interactive map offering statistical data on COVID-19 in Spain. The main focus of the project was to ensure that all individuals, regardless of their abilities, could access and use the provided information efficiently.
